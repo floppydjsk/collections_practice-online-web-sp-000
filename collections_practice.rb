@@ -22,5 +22,5 @@ def swap_elements(element)
 end
 
 def reverse_array(rev)
-  rev.map{|r| r.reverse}
+  rev.reverse
 end
