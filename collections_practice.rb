@@ -40,3 +40,8 @@ end
 def sum_array(numbas)
   numbas.inject(0){|sum,x| sum + x}
 end
+
+def add_s(snek)
+  snek.map.with_index{|element, i| if i != 1 then element + "s"}
+  end
+end
