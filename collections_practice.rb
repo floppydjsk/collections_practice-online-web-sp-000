@@ -34,6 +34,6 @@ def kesha_maker(kesh)
 end
 
 def find_a(words)
-  words.start_with?("a")
+  words.find.start_with?("a")
 end
     
