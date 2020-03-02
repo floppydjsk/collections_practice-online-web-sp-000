@@ -34,5 +34,5 @@ def kesha_maker(kesh)
 end
 
 def find_a(words)
-  words.find.start_with?("a")
+  words.find {|a| a.start_with?("a")}
 end
