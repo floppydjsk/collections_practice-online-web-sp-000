@@ -17,5 +17,6 @@ def sort_array_char_count(char)
 end
 
 def swap_elements(element)
-  element[1] = element[2]
+  order =[0, 2, 1]
+  order.map{|x| element[x]}
 end
