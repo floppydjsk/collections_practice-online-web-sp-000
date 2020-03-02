@@ -42,6 +42,5 @@ def sum_array(numbas)
 end
 
 def add_s(snek)
-  snek.map.with_index{|element, i| if i != 1 then element + "s"}
-  end
+  snek.map.with_index{|element, i| if i != 1 then element + "s" end}
 end
