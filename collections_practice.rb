@@ -22,5 +22,7 @@ def swap_elements(element)
 end
 
 def reverse_array(rev)
-  rev.reverse
+  rev.map.with_index do |value, index|
+    rev[rev.count-index-1]
+  end
 end
