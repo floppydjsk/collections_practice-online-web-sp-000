@@ -32,3 +32,8 @@ def kesha_maker(kesh)
     string[2] = "$"
   end
 end
+
+def find_a(words)
+  words.start_with?("a")
+end
+    
