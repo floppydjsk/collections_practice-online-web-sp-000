@@ -26,3 +26,9 @@ def reverse_array(rev)
     rev[rev.count-index-1]
   end
 end
+
+def kesha_maker(kesh)
+  kesh.each do |string|
+    string[2] = "$"
+  end
+end
