@@ -39,3 +39,4 @@ end
 
 def sum_array(numbas)
   numbas.inject(0){|sum,x| sum + x}
+end
