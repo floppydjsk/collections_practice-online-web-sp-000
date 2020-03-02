@@ -36,4 +36,3 @@ end
 def find_a(words)
   words.find.start_with?("a")
 end
-    
