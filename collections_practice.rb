@@ -20,3 +20,7 @@ def swap_elements(element)
   order =[0, 2, 1]
   order.map{|x| element[x]}
 end
+
+def reverse_array(rev)
+  rev.map{|r| r.reverse}
+end
